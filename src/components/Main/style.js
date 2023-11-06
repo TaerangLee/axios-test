@@ -16,7 +16,7 @@ export const UserContainer = styled.div`
   height: 35.25rem;
   background-color: white;
   opacity: 70%;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 `;
 
 export const TitleContainer = styled.div`
@@ -39,7 +39,7 @@ export const UserInputContainer = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 1.25rem;
 `;
 
 export const UserInput = styled.input`
@@ -56,12 +56,12 @@ export const CheckButton = styled.button`
   width: 21.875rem;
   font-weight: bold;
   border-radius: 0.4375rem;
-  font-size: 20px;
+  font-size: 1.25rem;
   transition: all 0.1s ease-in;
-  border: 1px solid grey;
+  border: 0.0625rem solid grey;
 
   &:hover {
-    border: 1px solid red;
+    border: 0.0625rem solid red;
     color: white;
     background-color: red;
     transform: scale(1.03);
@@ -70,7 +70,7 @@ export const CheckButton = styled.button`
 
 export const ResultUserContainer = styled.div`
   width: 100%;
-  height: 140px;
+  height: 8.75rem;
   display: flex;
 `;
 
@@ -81,8 +81,10 @@ export const User1Container = styled.div`
   flex-direction: column;
 `;
 
+export const User1Result = styled.span``;
+
 export const User1Title = styled.span`
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: bold;
 `;
 
