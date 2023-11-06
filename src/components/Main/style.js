@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const AllContainer = styled.div`
   width: 100vw;
   height: 100vh;
-  background-image: url("https://cdn.discordapp.com/attachments/1118682666871574551/1170722209766047794/3b37c01101a34092.jpeg?ex=655a1305&is=65479e05&hm=09b352b852ff7d7123a4cf2f9d869847e52633bcc573c9abd8dc5750ba4a4d2e&");
+  background-image: url("https://lolstatic-a.akamaihd.net/frontpage/apps/prod/rg-league-display-2017/en_US/eb9932fa17748596e3409e10c41d7f2badeec9cc/assets/img/content/splash/content-original-championillustrations-group-slashes.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -24,7 +24,7 @@ export const TitleContainer = styled.div`
   height: 3.125rem;
   display: flex;
   justify-content: center;
-  margin-top: 1.25rem;
+  margin-top: 2.25rem;
 `;
 
 export const Title = styled.span`
@@ -81,13 +81,22 @@ export const User1Container = styled.div`
   flex-direction: column;
 `;
 
-export const User1Result = styled.span``;
+export const UserResult = styled.span`
+  font-weight: 500;
+`;
 
-export const User1Title = styled.span`
+export const UserTitle = styled.span`
   font-size: 1.5rem;
   font-weight: bold;
 `;
 
-export const User2Container = styled.div`
-  width: 18.75rem;
+export const ResultLevelContainer = styled.div`
+  width: 100%;
+  height: 5.8125rem;
+  display: flex;
+  justify-content: center;
+`;
+export const ResultContent = styled.span`
+  font-size: 1.25rem;
+  font-weight: bold;
 `;
