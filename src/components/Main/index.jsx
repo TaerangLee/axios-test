@@ -75,7 +75,9 @@ const Main = () => {
               ) : (
                 <p>{`${response2.name}님이 ${response1.name}님 보다 롤을 더 많이 하셨습니다.`}</p>
               )
-            ) : null}
+            ) : (
+              <a>더 다양한 정보는 Data에 ...</a>
+            )}
           </S.ResultContent>
         </S.ResultLevelContainer>
       </S.UserContainer>
